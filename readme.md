@@ -16,5 +16,7 @@ x , y = y ,  x
 ```
 5. Conditional Expression
 ```
+a = 10
+b = 12
 m = a if a < b else b
 ```
