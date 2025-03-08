@@ -9,4 +9,8 @@ from keyword import iskeyword
 print(iskeyword("if"))
 ```
 
-4. 
+4. Assign y value to x and x value to y
+```
+x = 1  , y = 2
+x , y = y ,  x
+```
