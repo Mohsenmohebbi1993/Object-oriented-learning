@@ -14,3 +14,7 @@ print(iskeyword("if"))
 x = 1  , y = 2
 x , y = y ,  x
 ```
+5. Conditional Expression
+```
+m = a if a < b else b
+```
