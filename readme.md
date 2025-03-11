@@ -20,3 +20,4 @@ a = 10
 b = 12
 m = a if a < b else b
 ```
+6. Math Lib
