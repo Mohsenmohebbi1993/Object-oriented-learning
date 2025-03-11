@@ -33,3 +33,13 @@ elif score > 70:
 else:
     print("D")
 ```
+7. for and while
+```
+for i in range(10):
+    print(i, end=" ")
+print("\n-----")
+j = 0
+while j < 10:
+    print(j ,end=" ")
+    j+=1
+```
