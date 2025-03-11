@@ -21,3 +21,15 @@ b = 12
 m = a if a < b else b
 ```
 6. Math Lib
+7. If / elif / else
+```
+score = 83
+if score > 90:
+    print("A")
+elif score > 80:
+    print("B")
+elif score > 70:
+    print("C")
+else:
+    print("D")
+```
