@@ -43,3 +43,41 @@ while j < 10:
     print(j ,end=" ")
     j+=1
 ```
+8. String Function 1
+```
+print("---------string---------")
+word = "python"
+number = "128746684"
+print(f"---The word is {word}---")
+print(f"---The number is {number}---")
+print(f"len word = {len(word)}")
+print(f"is there 'th' in word ? {"th" in word}")
+print(f"is lower ? {word.islower()}")
+print(f"is alphabet ? {word.isalpha()}")
+print(f"is digit ? {word.isdigit()}")
+print(f"is number ? {number.isdigit()}")
+print(f"find 'o' ? place is {word.find("o")}")
+print(f"count 'o' ? count o is  {word.count("o")}")
+print(f"titel word: {word.title()}")
+print(f"upper word: {word.upper()}")
+print(f"ljust word: {word.ljust(9,"*")}")
+print(f"startswith word by 'py'?: {word.startswith("py")}")
+print(f"replace 'thon' by 'Mohsen' : {word.replace("thon","_Mohsen")}")
+```
+9. String Function 2
+```
+word = "$python_$$_A_$$"
+print(f"print word : {word}")
+print(f"strip $ : {word.strip("$")}")
+sentence = "I am Mohsen Mohebbi"
+print(f"print sentence : {sentence}")
+print(f"split by ' ' : {sentence.split(" ")}")
+split_sentence = sentence.split(" ")
+print(f"new_sentence by join = {" ".join(split_sentence)}")
+```
+10. Print
+```
+word = "python"
+print(f"name {word}")
+print("name {}".format(word))
+```
