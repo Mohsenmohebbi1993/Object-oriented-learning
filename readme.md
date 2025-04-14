@@ -81,3 +81,77 @@ word = "python"
 print(f"name {word}")
 print("name {}".format(word))
 ```
+11. list Function 1
+```
+a = [8, 2, 12]
+print(f"type a is {type(a)}")
+print(f"len a is {len(a)}")
+print(f"index 12 is {a.index(12)}")
+print(f"number of index 1 is {a[1]}")
+a[1] = 7
+print(f"change index 1 - 2 by 7 - a[1]=7 and a[1] is {a[1]}")
+```
+12. list Function 2
+```
+a = [13, 5, 30, 8, 6, 25]
+print("---------slicing-----------")
+print(f"---list is {a}---")
+print(f"a[1:4] = {a[1:4]}")
+print(f"a[:3] = {a[:3]}")
+print(f"a[3:] = {a[3:]}")
+print(f"a[::-1] = {a[::-1]}")
+print(f"a[0:7:2] = {a[0:7:2]}")
+print(f"a[7:0:-2] = {a[7:0:-2]}")
+```
+13. list Function 3
+```
+a = [3, 5]
+print(f"a is {a} and a*2 is {a*2}")
+b = ["R", "g"]
+print(f"a is {a} and b is {b} and a+b is {a+b}")
+
+c = [15, 5, 23, 3, 20]
+print(f"c is {c} and Max c is {max(c)}")
+print(f"c is {c} and min c is {min(c)}")
+print(f"c is {c} and count 5 in c is {c.count(5)}")
+print(f"c is {c} and sum c is {sum(c)}")
+c.insert(2,8)
+print(f"c is {c} and inset a number c is {c}")
+c.remove(8)
+print(f"c is {c} and remove 8 c is {c}")
+print(f"c is {c} and last number in c is {c.pop()} and c is {c} remove last number")
+print(f"c is {c} and c[1] is {c[1]} in c is {c.pop(1)} and c is {c} remove index 1")
+print(f"c is {c} befor del")
+del c[1]
+print(f"c is {c} and del 8 c is {c}")
+```
+14. list Function 4
+```
+a = [7, 8, 5, 15, 23]
+print(f"--- a is {a}---")
+a.reverse()
+print(f"reverse a is {a}")
+a.sort()
+print(f"sort {a}")
+a. append(1000)
+print(f"append 1000 to list is {a}")
+b = ["a", "b"]
+a.append(b)
+print(f"append a list to list {a}")
+a.extend(b)
+print(f"append a Members of a list to list {a}")
+b.clear()
+print(f"clear list's b {b}")
+```
+15. list Function 5
+```
+a=[]
+print(f"list a is {a}")
+for i in range(3):
+    a.append(i)
+print (f"list a with append by for {a}")
+a=[]
+a = [i for i in range(3)]
+print (f"other way i for i in range(3) {a}")
+```
+
