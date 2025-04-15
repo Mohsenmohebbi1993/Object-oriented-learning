@@ -239,4 +239,41 @@ import operator
 k = operator.itemgetter(1) # setting sort by items = 1 or keys 0
 print(f"sorted dic by values {sorted(d.items(),key = k)}")
 ```
+20. Dictionary Function 3
+```
+# combine
+d1 = {'x' : 3 , 'y': 2 , 'z':1}
+d2 = {'w' : 8 , 't': 7 }
+d = {}
+d = d1.copy()
+d.update(d2)
+print(f" combine 2 dict {d}") 
+
+#or
+d = {**d1, **d2}
+print(f" combine 2 dict {d}") 
+
+# create new dict by 2 parameters
+k = ['a' , 'b'] 
+v = [4 , 8]
+z = zip(k,v)
+d = dict(z)     
+print(f" create dict by 2 parameters {d}")
+
+### Nested dict
+myfamily = {
+        'child1': {'name':'taha'  , 'age' : 8}  ,      
+        'child2': {'name':'mahsa' , 'age' : 20}              
+        }
+print(f"nested dict {myfamily}")
+p = {
+     'name'     : 'farshid', 
+     'children' : ['mahsa', 'taha'],
+     'phone'    : {'home':'021-4455', 'mobile':'0912-1972028'}
+    }
+print(f"--- print dict {p}")
+print(f"len dict {len(p)}")
+print(f"phone + mobile is {p['phone']['mobile']}")
+print(f"children 1 is {p['children'][0]}")
+```
 
