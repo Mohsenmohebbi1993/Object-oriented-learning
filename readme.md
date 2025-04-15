@@ -189,4 +189,17 @@ print(f"zip 2 tupel is {x}")
 u = list(zip(*x))
 print(f" unzipe is {u}")
 ```
+18. Dictionary Function 1
+```
+d = {
+    "brand" : "b",
+     "model" : "m",
+     "color" : "red",
+     "year" : 2025
+     }
+# or
+# d = dict(brand = "b", model = "m", color = "red", year = 2025)
+
+print(f"---dictionary is {d}---")
+```
 
