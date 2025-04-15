@@ -178,4 +178,15 @@ a.append(3)
 t = tuple(a)
 print(f"append 3 to tuple {t}")
 ```
+17. Tuple Function 3
+```
+a = (1, 3)
+b = ("a", "b")
+c = zip(a,b)
+x = list(c)
+print(f"zip 2 tupel is {x}")
+# unzipe
+u = list(zip(*x))
+print(f" unzipe is {u}")
+```
 
