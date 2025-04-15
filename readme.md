@@ -202,4 +202,41 @@ d = {
 
 print(f"---dictionary is {d}---")
 ```
+19. Dictionary Function 2
+```
+d = {"x": 14,
+     "y": 32,
+     "z":11,
+     "w": 7}
+
+print(f"---dictionary is {d}---")
+print(f"type d is {type(d)}")
+print(f"len d is {len(d)}")
+print(f"key is y and value is {d["y"]}")
+print(f"key is y and value is {d.get("y")}")
+print(f"list of keys is {list(d.keys())}")
+print(f"liost of values is {(list(d.values()))}")
+print(f"liost of each items of dic is {list(d.items())}")
+print("---print key and value in rows---")
+for k,v in d.items():
+    print(k,":",v)
+
+d.pop("y")
+print(f" pop and remove a item (y) -- {d}")
+d.popitem()
+print(f" pop and remove a last item -- {d}")
+d.clear()
+print(f" clear and empty dic -- {d}")
+del d
+print(f" del dic - not found")
+
+d = {"x": 14,
+     "y": 32,
+     "z":11,
+     "w": 7}
+print("---sort dic by operator lib---")
+import operator
+k = operator.itemgetter(1) # setting sort by items = 1 or keys 0
+print(f"sorted dic by values {sorted(d.items(),key = k)}")
+```
 
