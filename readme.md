@@ -165,4 +165,17 @@ print(f"index atr is {t.index("art")}")
 ```
 17. Tupel Function 2
 ```
+t = (1, 7, 5)
+print(f"tupel is {t}")
+print(f"sum is {sum(t)}")
+print(f"Max is {max(t)}")
+print(f"min is {min(t)}")
+print(f"count 7 is {t.count(7)}")
+print(f"reverse is {tuple(reversed(t))}")
+print(" how to append a number to tuple")
+a = list(t)
+a.append(3)
+t = tuple(a)
+print(f"append 3 to tuple {t}")
+```
 
