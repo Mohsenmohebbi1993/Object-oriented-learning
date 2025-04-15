@@ -154,4 +154,15 @@ a=[]
 a = [i for i in range(3)]
 print (f"other way i for i in range(3) {a}")
 ```
+16. Tupel Function 1
+```
+print(f"------Tupel is {t}--------")
+print(f"type t is {type(t)}")
+print(f"len t is {len(t)}")
+print(f"t[1] is {t[1]}")
+print(f"t[1:3] is {t[1:3]}")
+print(f"index atr is {t.index("art")}")
+```
+17. Tupel Function 2
+```
 
