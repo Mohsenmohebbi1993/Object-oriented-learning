@@ -1,5 +1,6 @@
 # Object-oriented-learning
 
+## Part 1
 1. data type : int, float, str, complex, bool , ...  
 2. print("2a".isidentifier()) : The name is true or not
 3. Is keyword:
@@ -276,4 +277,6 @@ print(f"len dict {len(p)}")
 print(f"phone + mobile is {p['phone']['mobile']}")
 print(f"children 1 is {p['children'][0]}")
 ```
+
+## Part 2
 
