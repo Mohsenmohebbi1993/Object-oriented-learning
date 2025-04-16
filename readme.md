@@ -279,4 +279,7 @@ print(f"children 1 is {p['children'][0]}")
 ```
 
 ## Part 2
-
+ list is []
+ Tuple is ()
+ dicttionary is {--:--}
+ set is {}
