@@ -283,3 +283,35 @@ print(f"children 1 is {p['children'][0]}")
  Tuple is ()
  dicttionary is {--:--}
  set is {}
+
+21. Set Function 1
+```
+S = {"a", "e", "o", "i"}
+print(f"set is {S}")
+print(f"type of S is {type(S)}")
+print(f"len of S is {len(S)}")
+print(f"u in S ? {"u" in S}")
+S.add("u")
+print(f"add u in S ? {S}")
+S.add("a")
+print(f"add another a to S ? {S} one a is in S")
+S.remove("i")
+print(f"remove i in S ? {S}")
+C = S.copy()
+print(f"make a copy from S : C is {C} and S is {S} location not important in set")
+print(f"C = S ? {C == S}")
+
+X = {1, 5,8, 9, 12, 10}
+Y = {8, 10}
+print (f"x is {X} and y is {Y} - Is y intersection x ? {X.intersection(Y)}")
+print (f"x is {X} and y is {Y} - Is y & x ? {X & Y}")
+print (f"x is {X} and y is {Y} - Is y union x ? {X.union(Y)}")
+print (f"x is {X} and y is {Y} - Is y | x ? {X | Y}")
+print (f"x is {X} and y is {Y} - Is y difference x ? {X.difference(Y)}")
+
+X = {'A', 'M'}
+Y = {'A','C','M','F'}
+print(f"X is {X} And Y is {Y} - X issubset Y {X.issubset(Y)}") 
+```
+
+
