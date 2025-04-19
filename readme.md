@@ -313,5 +313,55 @@ X = {'A', 'M'}
 Y = {'A','C','M','F'}
 print(f"X is {X} And Y is {Y} - X issubset Y {X.issubset(Y)}") 
 ```
+22. Function 1
+```
+def f():
+    print("Mohsen Mohebbi")
 
+
+def f1():
+    return"Mohsen Mohebbi"
+
+print(f"def f is")
+f()
+print(f"def f1 is {f1()}")
+
+def f2(name):
+    print(name)
+f2("MOHSEN")
+
+def f3(x: float, y: float) -> float:
+    """
+    f3() is max Number  
+    x : A Number  
+    y : A number  
+    return : A number  
+    """
+    if x < y:
+        return y
+    else:
+        return x
+print (f"f3 Return(min) is {f3(8.2,23.9)}")
+
+def f4(x : float, y : float, z : float) -> float:
+    """
+    Use a Function in Function   
+    x : A Number  
+    y : A Number  
+    z : A Number  
+    return : Max(x, y , z)  
+    Fisrt find Max (y, z) and second Max (x, max(y, z))
+    """
+    return f3(x, f3(y,z))
+print(f"f4 is : {f4(20.1, 100.81, 15.3)}")
+
+x = 7
+def f5():
+    global x # change vale out of function
+    print(x)
+    x = 3
+    print(x)
+f5()
+print(f"print x : {x} with global can change value out of function" )
+```
 
