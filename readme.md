@@ -367,5 +367,21 @@ def add_more(a, b, *c):
     print(a + b + sum(c))
 print("add more is")
 add_more(5, 2, 7, 8, 12)
+
+def f7(a : int, b : int, *c : int, **d : dict)-> {int, int, tuple, dict}:
+    """
+    a : 1st value  
+    b : 2nd value
+    c : Then before B until we get the variable name.
+    d : Variables specified as a dictionary  
+    """
+    print("----- function f7() -----")
+    print(f" a = {a}   and type   {type(a)}")
+    print(f" b = {b}   and type   {type(b)}")
+    print(f" c = {c}   and type   {type(c)}")
+    print(f" d = {d}   and type   {type(d)}")
+    print("----------------------------------")
+
+f7(3, 4, 7, 1, 6, x=5, y=7, z=9)
 ```
 
