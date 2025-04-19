@@ -430,6 +430,20 @@ print(f"other way unique list is {unique_list2(a)}")
 ```
 23. Function 2 - PEP 484 -- 
 serch PEP 484 and format's Function
+```
+def fun(S : str, a : dict) -> {str, dict}:
+    """
+    Description about function   
+    fun : aaaaa    
+    S : A srting
+    return: A string  
+    print S 
 
+    """
+    return S , a
+
+print(fun.__annotations__)
+print(fun.__doc__)
+```
 
 
