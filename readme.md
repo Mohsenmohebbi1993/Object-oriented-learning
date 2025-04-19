@@ -428,8 +428,8 @@ def  unique_list2(lst):
     return set(lst)
 print(f"other way unique list is {unique_list2(a)}")
 ```
-23. Function 2 - PEP 484 -- 
-serch PEP 484 and format's Function
+23. Function 2 - PEP 484 --   
+search PEP 484 and format's Function  
 ```
 def fun(S : str, a : dict) -> {str, dict}:
     """
