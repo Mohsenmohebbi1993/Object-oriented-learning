@@ -363,5 +363,9 @@ def f5():
     print(x)
 f5()
 print(f"print x : {x} with global can change value out of function" )
+def add_more(a, b, *c):
+    print(a + b + sum(c))
+print("add more is")
+add_more(5, 2, 7, 8, 12)
 ```
 
