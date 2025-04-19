@@ -383,5 +383,21 @@ def f7(a : int, b : int, *c : int, **d : dict)-> {int, int, tuple, dict}:
     print("----------------------------------")
 
 f7(3, 4, 7, 1, 6, x=5, y=7, z=9)
+
+def count_char(s : str)->dict:
+    """
+    count_char    
+    s : A srting  
+    return : each character with count repeat    
+    give a string and craete a dict and Counts characters    
+    """
+    d = {}
+    for i in s:
+        if i in d.keys():
+            d[i] += 1
+        else:
+            d[i] = 1
+    return d
+print(count_char("mohsenmohebbi"))
 ```
 
