@@ -402,5 +402,34 @@ def count_char(s : str)->dict:
             d[i] = 1
     return sorted(d.items(),key = v)
 print(count_char("mohsenmohebbi"))
+# find uniqe value 
+def unique_list(lst):
+    r = []
+    for i in lst:
+        if i not in r:
+            r.append(i)
+    return r
+a = [8, 1, 2, 3, 1, 5, 3, 9, 1, 7, 8]
+print(f"unique list is {unique_list(a)}")
+# or
+def  unique_list2(lst):
+    return set(lst)
+print(f"other way unique list is {unique_list2(a)}")# find uniqe value 
+def unique_list(lst):
+    r = []
+    for i in lst:
+        if i not in r:
+            r.append(i)
+    return r
+a = [8, 1, 2, 3, 1, 5, 3, 9, 1, 7, 8]
+print(f"unique list is {unique_list(a)}")
+# or
+def  unique_list2(lst):
+    return set(lst)
+print(f"other way unique list is {unique_list2(a)}")
 ```
+23. Function 2 - PEP 484 -- 
+serch PEP 484 and format's Function
+
+
 
