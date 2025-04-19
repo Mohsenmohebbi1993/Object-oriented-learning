@@ -384,6 +384,9 @@ def f7(a : int, b : int, *c : int, **d : dict)-> {int, int, tuple, dict}:
 
 f7(3, 4, 7, 1, 6, x=5, y=7, z=9)
 
+import operator
+v = operator.itemgetter(0) # setting sort by items = 1 or keys 0
+
 def count_char(s : str)->dict:
     """
     count_char    
@@ -397,7 +400,7 @@ def count_char(s : str)->dict:
             d[i] += 1
         else:
             d[i] = 1
-    return d
+    return sorted(d.items(),key = v)
 print(count_char("mohsenmohebbi"))
 ```
 
