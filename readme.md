@@ -488,6 +488,26 @@ print(list(filter(lambda x : x < 10, a)))
 d = {"ali":12, "mahsa":20, "hosey":15, "mohsen": 19}
 print(sorted(d.items(), key = lambda x :x[1])) # x[1] is item of dict
 ```
+## Object Oriented or OOP
 
+1. Class 
 
+self is first
+Class Test has two property ( a and b ) and 3 method ( set_var, add , mul)   
+```
+class Test:
+    def set_var(self, a, b):
+        self.a = a
+        self.b = b
+
+    def add (self):
+        return self.a + self.b
+    
+    def mul (self):
+        return self.a * self.b
+
+ob1 = Test()
+ob1.set_var(2,3)
+print(f"print object {ob1.a} and {ob1.b}")
+```
 
