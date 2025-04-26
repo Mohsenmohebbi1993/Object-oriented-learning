@@ -470,7 +470,15 @@ f = lambda x, y: (x+y , x-y)
 print(f"lambda f {f(8,1)}")
 ```
 26. map
-
+```
+lst = ["ALI", "REZA"]
+a = []
+for i in lst:
+    x = i.lower()
+    a.append(x)
+print(a)
+print(list(map(str.lower, lst)))
+```
 
 
 
