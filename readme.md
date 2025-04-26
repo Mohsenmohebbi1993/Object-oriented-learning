@@ -483,6 +483,11 @@ a = [16, 7, 14, 6]
 print(list(map(lambda x : x < 10, a)))
 print(list(filter(lambda x : x < 10, a)))
 ```
+27. sorted 
+```
+d = {"ali":12, "mahsa":20, "hosey":15, "mohsen": 19}
+print(sorted(d.items(), key = lambda x :x[1])) # x[1] is item of dict
+```
 
 
 
