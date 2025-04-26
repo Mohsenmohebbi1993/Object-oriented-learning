@@ -461,6 +461,16 @@ def f_rec(n,base):
         return f_rec(n//base, base) + s[n % base]
 print(f_rec(25,16))
 ```
+25. Lambda
+```
+add = lambda x, y : x * y
+print(f"Lambda add {add(2,8)}")
+
+f = lambda x, y: (x+y , x-y)
+print(f"lambda f {f(8,1)}")
+```
+26. map
+
 
 
 
