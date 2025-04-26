@@ -445,5 +445,22 @@ def fun(S : str, a : dict) -> {str, dict}:
 print(fun.__annotations__)
 print(fun.__doc__)
 ```
+24. Function : recursive Function
+```
+def fac_rec(n):
+    if n == 1:
+        return 1
+    else:
+        return n * fac_rec(n-1)
+
+def f_rec(n,base):
+    s = "0123456789ABCDEF"
+    if n < base:
+        return s[n]
+    else:
+        return f_rec(n//base, base) + s[n % base]
+print(f_rec(25,16))
+```
+
 
 
