@@ -478,6 +478,10 @@ for i in lst:
     a.append(x)
 print(a)
 print(list(map(str.lower, lst)))
+
+a = [16, 7, 14, 6]
+print(list(map(lambda x : x < 10, a)))
+print(list(filter(lambda x : x < 10, a)))
 ```
 
 
