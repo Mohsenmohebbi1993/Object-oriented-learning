@@ -1,6 +1,6 @@
 # Object-oriented-learning
 
-## Part 1
+## 1 - Part 1
 1. data type : int, float, str, complex, bool , ...  
 2. print("2a".isidentifier()) : The name is true or not
 3. Is keyword:
@@ -278,7 +278,7 @@ print(f"phone + mobile is {p['phone']['mobile']}")
 print(f"children 1 is {p['children'][0]}")
 ```
 
-## Part 2
+## 2 - Part 2
  list is []
  Tuple is ()
  dicttionary is {--:--}
@@ -488,7 +488,7 @@ print(list(filter(lambda x : x < 10, a)))
 d = {"ali":12, "mahsa":20, "hosey":15, "mohsen": 19}
 print(sorted(d.items(), key = lambda x :x[1])) # x[1] is item of dict
 ```
-## Object Oriented or OOP
+## 3 - Object Oriented or OOP
 
 1. Class 
 
